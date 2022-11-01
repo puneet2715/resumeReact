@@ -90,11 +90,23 @@ export default function Home() {
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
               <Image
-                src={"/images/profile.jpg"}
+                loading="lazy"
+                // src={"/images/profile.jpg"}
+                src={"https://ik.imagekit.io/puneet2715/profile.jpg"}
                 layout="fill"
                 objectFit="cover"
                 alt="Profile Image"
               />
+              {/* <IKImage
+                className="object-fill"
+                urlEndpoint="https://ik.imagekit.io/puneet2715/"
+                path="/profile.jpg"
+                transformation={[{
+                  "height": "200",
+                  "width": "200"
+                }]}
+                lqip={{ active: true }}
+              /> */}
             </div>
           </div>
         </section>
@@ -122,7 +134,7 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gradient-to-r from-cyan-500 text- to-teal-600 flex-1">
               <Image
                 lazy="true"
-                src={"/images/3d-comp.jpg"}
+                src={"https://ik.imagekit.io/puneet2715/3d-comp.jpg"}
                 width={200}
                 height={200}
                 alt="random png"
