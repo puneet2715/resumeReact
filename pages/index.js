@@ -58,7 +58,7 @@ export default function Home() {
               Experienced as a back-end developer, looking for my first
               full-time job. Join me down below!
             </p>
-            <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
+            <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400 max-xs:gap-8">
               <a
                 href="https://www.linkedin.com/in/puneet2715/"
                 target={"_blank"}
@@ -88,8 +88,9 @@ export default function Home() {
                 <AiFillMail />
               </a>
             </div>
-            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 max-xs:h-64 max-xs:w-64 md:h-96 md:w-96">
               <Image
+                className="max-xs:justify-center"
                 loading="lazy"
                 // src={"/images/profile.jpg"}
                 src={"https://ik.imagekit.io/puneet2715/profile.jpg"}
