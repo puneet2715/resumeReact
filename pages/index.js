@@ -131,13 +131,13 @@ export default function Home() {
           <div className="pt-10">
             <h2 className="text-3xl py-1 dark:text-white ">Experience</h2>
           </div>
-          <div className="lg:flex gap-10 max-w-xl">
+          <div className="lg:flex gap-10 max-w-8xl">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gradient-to-r from-cyan-500 text- to-teal-600 flex-1">
               <Image
                 lazy="true"
                 src={"https://ik.imagekit.io/puneet2715/3d-comp.jpg"}
-                width={200}
-                height={200}
+                width={250}
+                height={250}
                 alt="random png"
               />
               <h3 className="text-lg font-medium pt-8 pb-2 text-purple-600">
@@ -151,6 +151,42 @@ export default function Home() {
               <h4 className="py-4 text-purple-600">Tech Stack </h4>
               <p className="text-gray-900 py-1">Nest.Js - Javascript</p>
               <p className="text-gray-900 py-1">MongoDb - Database (NoSQL)</p>
+            </div>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gradient-to-r from-cyan-500 text- to-teal-600 flex-1">
+              <Image
+                lazy="true"
+                src={"https://ik.imagekit.io/puneet2715/open-source.jpg"}
+                width={250}
+                height={250}
+                alt="random png"
+              />
+              <h3 className="text-lg font-medium pt-8 pb-2 text-purple-600">
+                Open Source Contribution
+              </h3>
+              <p className="py-2">
+                Repository Link -&gt; <br />
+                <a
+                  href="https://github.com/ChristianLempa/cheat-sheets"
+                  target={"_blank"}
+                  rel="noreferrer"
+                  className="font-mono text-purple-600"
+                >
+                  Cheat-Sheets
+                </a>
+                <br />
+                ( This is my first pr ) Pull Request Link -&gt; <br />
+                <a
+                  href="https://github.com/ChristianLempa/cheat-sheets/pull/72"
+                  target={"_blank"}
+                  rel="noreferrer"
+                  className="font-mono text-purple-600"
+                >
+                  Added Cloud Notes
+                </a>
+              </p>
+              <h4 className="py-4 text-purple-600">Tech Stack </h4>
+              <p className="text-gray-900 py-1">Git - GitHub</p>
+              {/* <p className="text-gray-900 py-1">MongoDb - Database (NoSQL)</p> */}
             </div>
             {/* <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-neutral-600 flex-1">
               <Image src={"/images/profile.jpg"} width={200} height={200} />
@@ -166,8 +202,8 @@ export default function Home() {
               <p className="text-gray-800 py-1">Illustrator</p>
               <p className="text-gray-800 py-1">Figma</p>
               <p className="text-gray-800 py-1">Indesign</p>
-            </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-neutral-600 flex-1">
+            </div> */}
+            {/* <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-neutral-600 flex-1">
               <Image src={"/images/profile.jpg"} width={200} height={200} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
               <p className="py-2">
