@@ -140,6 +140,17 @@ export default function Home() {
                 height={250}
                 alt="random png"
               />
+              <p className="text-xs">
+                Illustration from{" "}
+                <a
+                  href="https://www.freepik.com/free-psd/3d-rendering-graphic-design_31164759.htm#&position=3&from_view=undefinedhttps://www.freepik.com/free-psd/3d-rendering-graphic-design_31164759.htm#&position=3&from_view=undefined"
+                  target={"_blank"}
+                  rel="noreferrer"
+                  className="underline"
+                >
+                  Freepik
+                </a>
+              </p>
               <h3 className="text-lg font-medium pt-8 pb-2 text-purple-600">
                 Back-End Dev
               </h3>
@@ -160,6 +171,17 @@ export default function Home() {
                 height={250}
                 alt="random png"
               />
+              <p className="text-xs">
+                Illustration from{" "}
+                <a
+                  href="https://www.freepik.com/free-photo/3d-illustration-open-closed-books-pencil_33309550.htm#&position=1&from_view=undefined"
+                  target={"_blank"}
+                  rel="noreferrer"
+                  className="underline"
+                >
+                  Freepik
+                </a>
+              </p>
               <h3 className="text-lg font-medium pt-8 pb-2 text-purple-600">
                 Open Source Contribution
               </h3>
