@@ -282,7 +282,7 @@ export default function Home() {
                   <h3 className="text-3xl py-1 dark:text-white">Code</h3>
                 </a>
                 <a
-                  href="https://learning-jspc.herokuapp.com/"
+                  href="https://ourapp.shadowdragon.one/"
                   target={"_blank"}
                   rel={"noreferrer"}
                 >
