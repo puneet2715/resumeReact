@@ -88,9 +88,9 @@ export default function Home() {
                 <AiFillMail />
               </a>
             </div>
-            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 max-xs:h-64 max-xs:w-64 md:h-96 md:w-96">
+            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 max-xs:h-64 max-xs:w-64 md:h-96 md:w-96 max-xxs:m-0 max-xxs:p-0 max-xxs:mx-auto">
               <Image
-                className="max-xs:justify-center"
+                className="max-xxs:justify-center"
                 loading="lazy"
                 // src={"/images/profile.jpg"}
                 src={"https://ik.imagekit.io/puneet2715/profile.jpg"}
@@ -268,7 +268,7 @@ export default function Home() {
               <iframe
                 lazy="true"
                 layout="responsive"
-                src="https://learning-jspc.herokuapp.com/"
+                src="https://ourapp.shadowdragon.one/"
                 frameBorder="0"
                 height={"650px"}
                 width={"100%"}
