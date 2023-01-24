@@ -36,7 +36,7 @@ export default function Home() {
               <li>
                 <a
                   className="px-4 py-2 border-none rounded-md ml-text-white bg-gradient-to-r from-cyan-500 text- to-teal-500 max-xs:text-sm"
-                  href="https://drive.google.com/file/d/1gpoLz97EKvO-QOblglnn9G7mVxophw-Q/view?usp=share_link"
+                  href="https://filebrowser.shadowdragon.one/share/rzcr4TS7"
                   target={"_blank"}
                   rel="noreferrer"
                 >
