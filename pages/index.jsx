@@ -401,7 +401,32 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="flex-1 basis-1/3"></div>
+            <div className="flex-1 basis-1/3">
+              <iframe
+                lazy="true"
+                layout="responsive"
+                src="https://puneet2715.github.io/easyops/"
+                height={"650px"}
+                width={"100%"}
+              ></iframe>
+              <div className="flex gap-9">
+                {/* <a href="#" target={"_blank"}><h3 className="py-1 text-3xl dark:text-white">Code</h3></a> */}
+                <a
+                  href="https://github.com/puneet2715/easyops"
+                  target={"_blank"}
+                  rel={"noreferrer"}
+                >
+                  <h3 className="py-1 text-3xl dark:text-white">Code</h3>
+                </a>
+                <a
+                  href="https://puneet2715.github.io/easyops/"
+                  target={"_blank"}
+                  rel={"noreferrer"}
+                >
+                  <h3 className="py-1 text-3xl dark:text-white">Live</h3>
+                </a>
+              </div>
+            </div>
             {/* <div className="flex-1 basis-1/3">
               <Image
                 className="object-cover rounded-lg"
