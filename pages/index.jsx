@@ -95,7 +95,7 @@ export default function Home() {
                 className="max-xxs:justify-center"
                 loading="lazy"
                 // src={"/profile.jpg"}
-                src={"https://ik.imagekit.io/puneet2715/profile.jpg"}
+                src={"https://ik.imagekit.io/puneet2715/myself.jpg"}
                 layout="fill"
                 objectFit="cover"
                 alt="Profile Image"
