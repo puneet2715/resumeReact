@@ -133,12 +133,12 @@ export default function Home() {
           <div className="pt-10">
             <h2 className="py-1 text-3xl dark:text-white ">Experience</h2>
           </div>
-          <div className="gap-10 lg:flex max-w-8xl">
+          <div className="gap-10 lg:flex max-w-8xl max-h-max">
             <div className="flex-1 p-10 my-10 text-center shadow-lg rounded-xl dark:bg-gradient-to-r from-cyan-500 text- to-teal-600">
               <Image
                 lazy="true"
                 src={"https://ik.imagekit.io/puneet2715/3d-comp.jpg"}
-                width={250}
+                width={300}
                 height={250}
                 alt="random png"
               />
@@ -158,8 +158,7 @@ export default function Home() {
               </h3>
               <p className="py-2">
                 Comepleting day to day tasks like -&gt; <br /> Contribution in
-                development of the REST APIs and password hashing and storing on
-                the database
+                development of the REST APIs and password hashing and storing.
               </p>
               <h4 className="py-4 text-purple-600">Tech Stack </h4>
               <p className="py-1 text-gray-900">Nest.Js - Javascript</p>
@@ -168,8 +167,39 @@ export default function Home() {
             <div className="flex-1 p-10 my-10 text-center shadow-lg rounded-xl dark:bg-gradient-to-r from-cyan-500 text- to-teal-600">
               <Image
                 lazy="true"
+                src={"https://ik.imagekit.io/puneet2715/3d-comp.jpg"}
+                width={300}
+                height={250}
+                alt="random png"
+              />
+              <p className="text-xs">
+                Illustration from{" "}
+                <a
+                  href="https://www.freepik.com/free-psd/3d-rendering-graphic-design_31164759.htm#&position=3&from_view=undefinedhttps://www.freepik.com/free-psd/3d-rendering-graphic-design_31164759.htm#&position=3&from_view=undefined"
+                  target={"_blank"}
+                  rel="noreferrer"
+                  className="underline"
+                >
+                  Freepik
+                </a>
+              </p>
+              <h3 className="pt-8 pb-2 text-lg font-medium text-purple-600">
+                Software Developer
+              </h3>
+              <p className="py-2">
+                Comepleting assignments and daily standups {/*-&gt;*/} <br />
+              </p>
+              <h4 className="py-4 text-purple-600">Tech Stack </h4>
+              <p className="py-1 text-gray-900">Next.Js/React.Js - Javascript</p>
+              <p className="py-1 text-gray-900">MaterialUi/TailwindCss/AntDesign - Css</p>
+              <p className="py-1 text-gray-900">MongoDb - Database (NoSQL)</p>
+            </div>
+            
+            <div className="flex-1 p-10 my-10 text-center shadow-lg rounded-xl dark:bg-gradient-to-r from-cyan-500 text- to-teal-600">
+              <Image
+                lazy="true"
                 src={"https://ik.imagekit.io/puneet2715/open-source.jpg"}
-                width={250}
+                width={300}
                 height={250}
                 alt="random png"
               />
@@ -277,6 +307,31 @@ export default function Home() {
                 </a>
                 <a
                   href="https://puneet2715.github.io/gitissuessimplified/"
+                  target={"_blank"}
+                  rel={"noreferrer"}
+                >
+                  <h3 className="py-1 text-3xl dark:text-white">Live</h3>
+                </a>
+              </div>
+            </div>
+            <div className="flex-1 basis-1/3 ">
+              <iframe
+                lazy="true"
+                layout="responsive"
+                src="https://carfrontend.shadowdragon.one/"
+                height={"650px"}
+                width={"100%"}
+              ></iframe>
+              <div className="flex gap-9">
+                {/* <a
+                  href="https://github.com/puneet2715/gitissuessimplified"
+                  target={"_blank"}
+                  rel={"noreferrer"}
+                >
+                  <h3 className="py-1 text-3xl dark:text-white">Code</h3>
+                </a> */}
+                <a
+                  href="https://carfrontend.shadowdragon.one/"
                   target={"_blank"}
                   rel={"noreferrer"}
                 >
