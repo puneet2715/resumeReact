@@ -2,7 +2,7 @@ import {
   AiFillTwitterCircle,
   AiFillLinkedin,
   AiFillGithub,
-  AiFillMail
+  AiFillMail,
 } from "react-icons/ai";
 // import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
@@ -17,7 +17,10 @@ export default function Home() {
     <div className={darkMode ? "dark" : ""}>
       <Head>
         <title>Resume/Portfolio</title>
-        <meta name="description" content="Portfolio/Resume Site of Puneet Arora" />
+        <meta
+          name="description"
+          content="Portfolio/Resume Site of Puneet Arora"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="px-10 bg-white dark:bg-gray-900 md:px-20 lg:px-40 max-xs:px-4 max-xxs:px-4">
@@ -154,7 +157,14 @@ export default function Home() {
                 </a>
               </p>
               <h3 className="pt-8 pb-2 text-lg font-medium text-purple-600">
-                Back-End Dev
+                Back-End Dev @ <a
+                  href="https://www.linkedin.com/company/attendit1/about/"
+                  target={"_blank"}
+                  rel="noreferrer"
+                  className="hover:underline"
+                >
+                  ATTENDIT
+                </a>
               </h3>
               <p className="py-2">
                 Comepleting day to day tasks like -&gt; <br /> Contribution in
@@ -184,17 +194,29 @@ export default function Home() {
                 </a>
               </p>
               <h3 className="pt-8 pb-2 text-lg font-medium text-purple-600">
-                Software Developer
+                Software Developer @{" "}
+                <a
+                  href="https://www.easyops.in/"
+                  target={"_blank"}
+                  rel="noreferrer"
+                  className="hover:underline"
+                >
+                  EasyOps
+                </a>
               </h3>
               <p className="py-2">
                 Comepleting assignments and daily standups {/*-&gt;*/} <br />
               </p>
               <h4 className="py-4 text-purple-600">Tech Stack </h4>
-              <p className="py-1 text-gray-900">Next.Js/React.Js - Javascript</p>
-              <p className="py-1 text-gray-900">MaterialUi/TailwindCss/AntDesign - Css</p>
+              <p className="py-1 text-gray-900">
+                Next.Js/React.Js - Javascript
+              </p>
+              <p className="py-1 text-gray-900">
+                MaterialUi/TailwindCss/AntDesign - Css
+              </p>
               <p className="py-1 text-gray-900">MongoDb - Database (NoSQL)</p>
             </div>
-            
+
             <div className="flex-1 p-10 my-10 text-center shadow-lg rounded-xl dark:bg-gradient-to-r from-cyan-500 text- to-teal-600">
               <Image
                 lazy="true"
