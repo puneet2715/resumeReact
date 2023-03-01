@@ -163,7 +163,7 @@ export default function Home() {
                 </a>
               </h3>
               <p className="py-2">
-                Comepleting day to day tasks like -&gt; <br /> Contribution in
+                Comepleted day to day tasks like -&gt; <br /> Contribution in
                 development of the REST APIs and password hashing and storing.
               </p>
               <h4 className="py-4 text-purple-600">Tech Stack </h4>
@@ -208,7 +208,7 @@ export default function Home() {
                 Next.Js/React.Js - Javascript
               </p>
               <p className="py-1 text-gray-900">
-                MaterialUi/TailwindCss/AntDesign - Css
+                MaterialUi/TailwindCss/ChakraUi - Css
               </p>
               <p className="py-1 text-gray-900">MongoDb - Database (NoSQL)</p>
             </div>
