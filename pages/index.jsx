@@ -96,8 +96,6 @@ export default function Home() {
                 // src={"/profile.jpg"}
                 src={"https://ik.imagekit.io/puneet2715/myself.jpg"}
                 layout="fill"
-                placeholder="blur"
-                blurDataURL="iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P9kPwAFjgKku/kRjAAAAABJRU5ErkJggg=="
                 objectFit="cover"
                 alt="Profile Image"
               />
