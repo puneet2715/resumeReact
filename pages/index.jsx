@@ -17,11 +17,6 @@ export default function Home() {
     <div className={darkMode ? "dark" : ""}>
       <Head>
         <title>Resume/Portfolio</title>
-        <meta
-          name="description"
-          content="Portfolio/Resume Site of Puneet Arora"
-        />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="px-10 bg-white dark:bg-gray-900 md:px-20 lg:px-40 max-xs:px-4 max-xxs:px-4">
         <section className="min-h-screen">
@@ -95,8 +90,9 @@ export default function Home() {
             </div>
             <div className="relative mx-auto mt-20 overflow-hidden rounded-full bg-gradient-to-b from-teal-500 w-80 h-80 md:h-96 md:w-96 max-xs:h-52 max-xs:w-52 max-xxs:h-40 max-xxs:w-40">
               <Image
+                priority={true}
                 className="max-xxs:justify-center"
-                loading="lazy"
+                // loading="lazy"
                 // src={"/profile.jpg"}
                 src={"https://ik.imagekit.io/puneet2715/myself.jpg"}
                 layout="fill"
