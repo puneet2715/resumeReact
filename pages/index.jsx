@@ -205,6 +205,12 @@ export default function Home() {
               </p>
               <h4 className="py-4 text-purple-600">Tech Stack </h4>
               <p className="py-1 text-gray-900">
+                TypeScript
+              </p>
+              <p className="py-1 text-gray-900">
+                AWS
+              </p>
+              <p className="py-1 text-gray-900">
                 Next.Js/React.Js - Javascript
               </p>
               <p className="py-1 text-gray-900">
