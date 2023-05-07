@@ -505,7 +505,7 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="flex-1 basis-1/3 ">
+            {/* <div className="flex-1 basis-1/3 ">
               {/* <Image
                 className="object-cover rounded-lg"
                 width={"100%"}
@@ -536,7 +536,7 @@ export default function Home() {
                   <h3 className="py-1 text-3xl dark:text-white">Live</h3>
                 </a>
               </div>
-            </div>
+            </div> */}
             {/* <div className="flex-1 basis-1/3">
               <Image
                 className="object-cover rounded-lg"
