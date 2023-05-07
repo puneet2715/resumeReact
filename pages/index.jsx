@@ -513,7 +513,7 @@ export default function Home() {
                 layout="responsive"
                 src={"/images/profile.jpg"}
               /> */}
-              <iframe
+              {/*<iframe
                 lazy="true"
                 layout="responsive"
                 src="https://ourapp.shadowdragon.one/"
