@@ -363,31 +363,25 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="flex-1 basis-1/3 ">
-              {/* <Image
-                className="object-cover rounded-lg"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={"/images/profile.jpg"}
-              /> */}
+            <div className="flex-1 basis-1/3">
               <iframe
                 lazy="true"
                 layout="responsive"
-                src="https://ourapp.shadowdragon.one/"
+                src="https://puneet2715.github.io/easyops/"
                 height={"650px"}
                 width={"100%"}
               ></iframe>
               <div className="flex gap-9">
+                {/* <a href="#" target={"_blank"}><h3 className="py-1 text-3xl dark:text-white">Code</h3></a> */}
                 <a
-                  href="https://github.com/puneet2715/learningJS"
+                  href="https://github.com/puneet2715/easyops"
                   target={"_blank"}
                   rel={"noreferrer"}
                 >
                   <h3 className="py-1 text-3xl dark:text-white">Code</h3>
                 </a>
                 <a
-                  href="https://ourapp.shadowdragon.one/"
+                  href="https://puneet2715.github.io/easyops/"
                   target={"_blank"}
                   rel={"noreferrer"}
                 >
@@ -395,7 +389,6 @@ export default function Home() {
                 </a>
               </div>
             </div>
-
             <div className="flex-1 basis-1/3">
               {/* <Image
                 className="object-cover rounded-lg"
@@ -480,25 +473,63 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="flex-1 basis-1/3">
+            <div className="flex-1 basis-1/3 ">
+              {/* <Image
+                className="object-cover rounded-lg"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={"/images/profile.jpg"}
+              /> */}
               <iframe
                 lazy="true"
                 layout="responsive"
-                src="https://puneet2715.github.io/easyops/"
+                src="https://ourapp.shadowdragon.one/"
                 height={"650px"}
                 width={"100%"}
               ></iframe>
               <div className="flex gap-9">
-                {/* <a href="#" target={"_blank"}><h3 className="py-1 text-3xl dark:text-white">Code</h3></a> */}
                 <a
-                  href="https://github.com/puneet2715/easyops"
+                  href="https://github.com/puneet2715/learningJS"
                   target={"_blank"}
                   rel={"noreferrer"}
                 >
                   <h3 className="py-1 text-3xl dark:text-white">Code</h3>
                 </a>
                 <a
-                  href="https://puneet2715.github.io/easyops/"
+                  href="https://ourapp.shadowdragon.one/"
+                  target={"_blank"}
+                  rel={"noreferrer"}
+                >
+                  <h3 className="py-1 text-3xl dark:text-white">Live</h3>
+                </a>
+              </div>
+            </div>
+            <div className="flex-1 basis-1/3 ">
+              {/* <Image
+                className="object-cover rounded-lg"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={"/images/profile.jpg"}
+              /> */}
+              <iframe
+                lazy="true"
+                layout="responsive"
+                src="https://ourapp.shadowdragon.one/"
+                height={"650px"}
+                width={"100%"}
+              ></iframe>
+              <div className="flex gap-9">
+                <a
+                  href="https://github.com/puneet2715/learningJS"
+                  target={"_blank"}
+                  rel={"noreferrer"}
+                >
+                  <h3 className="py-1 text-3xl dark:text-white">Code</h3>
+                </a>
+                <a
+                  href="https://ourapp.shadowdragon.one/"
                   target={"_blank"}
                   rel={"noreferrer"}
                 >
