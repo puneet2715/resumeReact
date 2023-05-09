@@ -34,7 +34,7 @@ export default function Home() {
               <li>
                 <a
                   className="px-4 py-2 border-none rounded-md ml-text-white bg-gradient-to-r from-cyan-500 text- to-teal-500 max-xs:text-sm"
-                  href="https://filebrowser.shadowdragon.one/files/Puneet%20Arora%20(1).pdf"
+                  href="https://filebrowser.shadowdragon.one/share/v9TUI6t1"
                   target={"_blank"}
                   rel="noreferrer"
                 >
