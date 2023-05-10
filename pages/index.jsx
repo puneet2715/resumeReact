@@ -4,36 +4,24 @@ import {
   AiFillGithub,
   AiFillMail,
 } from "react-icons/ai";
-// import { BsFillMoonStarsFill } from "react-icons/bs";
-import { useState } from "react";
 
 import Image from "next/image";
 import Head from "next/head";
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(true);
 
   return (
     <div>
-    {/* <div className={darkMode ? "dark" : "dark"}> */}
       <Head>
         <title>Resume/Portfolio</title>
       </Head>
       <main className="px-10 bg-gray-900 md:px-20 lg:px-40 max-xs:px-4 max-xxs:px-4">
-      {/* <main className="px-10 bg-white dark:bg-gray-900 md:px-20 lg:px-40 max-xs:px-4 max-xxs:px-4"> */}
         <section className="min-h-screen">
           <nav className="flex justify-between py-8 my-0 mb-12 text-white max-xs:block">
-          {/* <nav className="flex justify-between py-8 my-0 mb-12 dark:text-white max-xs:block"> */}
             <h1 className="text-xl font-burtons max-xs:text-sm max-xs:flex max-xs:justify-center">
               developedbyPuneet
             </h1>
             <ul className="flex justify-center max-xs:mt-6">
-              <li>
-                {/* <BsFillMoonStarsFill
-                  onClick={() => setDarkMode(!darkMode)}
-                  className="text-2xl cursor-pointer "
-                /> */}
-              </li>
               <li>
                 <a
                   className="px-4 py-2 border-none rounded-md ml-text-white bg-gradient-to-r from-cyan-500 text- to-teal-500 max-xs:text-sm"
@@ -45,27 +33,17 @@ export default function Home() {
                 </a>
               </li>
             </ul>
-            {/* <div className="flex justify-center gap-16 text-3xl text-gray-600 dark:text-gray-400">
-              <AiFillLinkedin />
-              <AiFillGithub />
-              <AiFillTwitterCircle />
-            </div> */}
           </nav>
           <div className="p-10 py-10 text-center max-xs:px-6">
             <h2 className="py-2 text-5xl font-medium text-teal-600 text-teal-400 md:text-6xl max-xs:text-2xl max-xxs:text-xl">
-            {/* <h2 className="py-2 text-5xl font-medium text-teal-600 dark:text-teal-400 md:text-6xl max-xs:text-2xl max-xxs:text-xl"> */}
               Puneet Arora
             </h2>
-            {/* <h3 className="py-2 text-2xl dark:text-white md:text-3xl max-xs:text-xl max-xxs:text-sm"> */}
             <h3 className="py-2 text-2xl text-white md:text-3xl max-xs:text-xl max-xxs:text-sm">
               Software Developer.
             </h3>
             <p className="max-w-xl py-5 mx-auto leading-8 text-gray-800 text-md text-gray-200 md:text-xl max-xs:text-base max-xxs:text-base">
-            {/* <p className="max-w-xl py-5 mx-auto leading-8 text-gray-800 text-md dark:text-gray-200 md:text-xl max-xs:text-base max-xxs:text-base"> */}
-            {/* <p className="max-w-xl py-5 mx-auto leading-8 text-gray-800 text-md text-gray-200 md:text-xl max-xs:text-base max-xxs:text-base"> */}
               I read more to write less (Code)
             </p>
-            {/* <div className="flex justify-center gap-16 py-3 text-5xl text-gray-600 dark:text-gray-400 max-xs:gap-8 max-xs:text-2xl max-xxs:text-base"> */}
             <div className="flex justify-center gap-16 py-3 text-5xl text-gray-600 text-gray-400 max-xs:gap-8 max-xs:text-2xl max-xxs:text-base">
               <a
                 href="https://www.linkedin.com/in/puneet2715/"
@@ -100,36 +78,21 @@ export default function Home() {
               <Image
                 priority={true}
                 className="max-xxs:justify-center"
-                // loading="lazy"
-                // src={"/profile.jpg"}
                 src={"https://ik.imagekit.io/puneet2715/myself.jpg"}
                 layout="fill"
                 objectFit="cover"
                 alt="Profile Image"
               />
-              {/* <IKImage
-                className="object-cover"
-                urlEndpoint="https://ik.imagekit.io/puneet2715/"
-                path="/profile.jpg"
-                transformation={[{
-                  "height": "200",
-                  "width": "200"
-                }]}
-                lqip={{ active: true }}
-              /> */}
             </div>
           </div>
         </section>
         <section>
           <div className="mx-auto">
-            {/* <h2 className="py-1 text-3xl dark:text-white ">Education</h2> */}
             <h2 className="py-1 text-3xl text-white ">Education</h2>
             <h3 className="py-1 text-2xl text-teal-400 ">
-            {/* <h3 className="py-1 text-2xl dark:text-teal-400 "> */}
               Bachelor of Computer Applications
             </h3>
             <p className="py-2 text-lg leading-8 text-gray-800 text-gray-200">
-            {/* <p className="py-2 text-lg leading-8 text-gray-800 dark:text-gray-200"> */}
               <span className="text-cyan-300">
                 {" "}
                 Maharaja Surajmal Institute of Technology{" "}
@@ -141,11 +104,9 @@ export default function Home() {
             </p>
           </div>
           <div className="pt-10">
-            {/* <h2 className="py-1 text-3xl dark:text-white ">Experience</h2> */}
             <h2 className="py-1 text-3xl text-white ">Experience</h2>
           </div>
           <div className="gap-10 lg:flex max-w-8xl max-h-max">
-            {/* <div className="flex-1 p-10 my-10 text-center shadow-lg rounded-xl dark:bg-gradient-to-r from-cyan-500 text- to-teal-600"> */}
             <div className="flex-1 p-10 my-10 text-center shadow-lg rounded-xl bg-gradient-to-r from-cyan-500 text- to-teal-600">
               <Image
                 lazy="true"
@@ -188,7 +149,6 @@ export default function Home() {
               <p className="py-1 text-gray-900">VCS -&gt; Git/Github</p>
             </div>
             <div className="flex-1 p-10 my-10 text-center shadow-lg rounded-xl bg-gradient-to-r from-cyan-500 text- to-teal-600">
-            {/* <div className="flex-1 p-10 my-10 text-center shadow-lg rounded-xl dark:bg-gradient-to-r from-cyan-500 text- to-teal-600"> */}
               <Image
                 lazy="true"
                 src={"https://ik.imagekit.io/puneet2715/3d-comp.jpg"}
@@ -222,10 +182,10 @@ export default function Home() {
                 Feb 2023 - May 2023  
               </h4>
               <p className="py-2">
-                Development Style -&gt; AGILE {/*-&gt;*/} <br />
+                Development Style -&gt; AGILE <br />
               </p>
               <p className="py-2">
-                Comepleted assignments and daily standups {/*-&gt;*/} <br />
+                Comepleted assignments and daily standups <br />
               </p>
               <h4 className="py-4 text-purple-600">Tech Stack </h4>
               <p className="py-1 text-gray-900">
@@ -239,7 +199,6 @@ export default function Home() {
               <p className="py-1 text-gray-900">VCS -&gt; Git/Github</p>
             </div>
 
-            {/* <div className="flex-1 p-10 my-10 text-center shadow-lg rounded-xl dark:bg-gradient-to-r from-cyan-500 text- to-teal-600"> */}
             <div className="flex-1 p-10 my-10 text-center shadow-lg rounded-xl bg-gradient-to-r from-cyan-500 text- to-teal-600">
               <Image
                 lazy="true"
@@ -294,52 +253,11 @@ export default function Home() {
                 </a></p>
               <p className="py-1 text-gray-900">VCS -&gt; Git/Github</p>
             </div>
-            {/* <div className="flex-1 p-10 my-10 text-center shadow-lg rounded-xl dark:bg-neutral-600">
-              <Image src={"/images/profile.jpg"} width={200} height={200} />
-              <h3 className="pt-8 pb-2 text-lg font-medium ">
-                Code your dream project
-              </h3>
-              <p className="py-2">
-                Do you have an idea for your next great website? Let's make it a
-                reality.
-              </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="py-1 text-gray-800">Photoshop</p>
-              <p className="py-1 text-gray-800">Illustrator</p>
-              <p className="py-1 text-gray-800">Figma</p>
-              <p className="py-1 text-gray-800">Indesign</p>
-            </div> */}
-            {/* <div className="flex-1 p-10 my-10 text-center shadow-lg rounded-xl dark:bg-neutral-600">
-              <Image src={"/images/profile.jpg"} width={200} height={200} />
-              <h3 className="pt-8 pb-2 text-lg font-medium ">Consulting</h3>
-              <p className="py-2">
-                Are you interested in feedback for your current project? I can
-                give you tips and tricks to level it up.
-              </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="py-1 text-gray-800">Photoshop</p>
-              <p className="py-1 text-gray-800">Illustrator</p>
-              <p className="py-1 text-gray-800">Figma</p>
-              <p className="py-1 text-gray-800">Indesign</p>
-            </div> */}
           </div>
         </section>
         <section className="py-10">
           <div>
             <h3 className="py-1 text-3xl text-white">Portfolio</h3>
-            {/* <h3 className="py-1 text-3xl dark:text-white">Portfolio</h3> */}
-            {/* <p className="py-2 leading-8 text-gray-800 text-md dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
-            </p>
-            <p className="py-2 leading-8 text-gray-800 text-md dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
-            </p> */}
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="flex-1 basis-1/3 ">
@@ -357,7 +275,6 @@ export default function Home() {
                   rel={"noreferrer"}
                 >
                   <h3 className="py-1 text-3xl text-white">Code</h3>
-                  {/* <h3 className="py-1 text-3xl dark:text-white">Code</h3> */}
                 </a>
                 <a
                   href="https://puneet2715.github.io/gitissuessimplified/"
@@ -365,7 +282,6 @@ export default function Home() {
                   rel={"noreferrer"}
                 >
                   <h3 className="py-1 text-3xl text-white">Live</h3>
-                  {/* <h3 className="py-1 text-3xl dark:text-white">Live</h3> */}
                 </a>
               </div>
             </div>
@@ -378,20 +294,12 @@ export default function Home() {
                 width={"100%"}
               ></iframe>
               <div className="flex gap-9">
-                {/* <a
-                  href="https://github.com/puneet2715/gitissuessimplified"
-                  target={"_blank"}
-                  rel={"noreferrer"}
-                >
-                  <h3 className="py-1 text-3xl dark:text-white">Code</h3>
-                </a> */}
                 <a
                   href="https://carfrontend.shadowdragon.one/"
                   target={"_blank"}
                   rel={"noreferrer"}
                 >
                   <h3 className="py-1 text-3xl text-white">Live</h3>
-                  {/* <h3 className="py-1 text-3xl dark:text-white">Live</h3> */}
                 </a>
               </div>
             </div>
@@ -404,14 +312,11 @@ export default function Home() {
                 width={"100%"}
               ></iframe>
               <div className="flex gap-9">
-                {/* <a href="#" target={"_blank"}><h3 className="py-1 text-3xl dark:text-white">Code</h3></a> */}
                 <a
                   href="https://github.com/puneet2715/easyops"
                   target={"_blank"}
                   rel={"noreferrer"}
-                >
-                  {/* <h3 className="py-1 text-3xl dark:text-white">Code</h3> */}
-                  <h3 className="py-1 text-3xl text-white">Code</h3>
+                >                  <h3 className="py-1 text-3xl text-white">Code</h3>
                 </a>
                 <a
                   href="https://puneet2715.github.io/easyops/"
@@ -419,18 +324,10 @@ export default function Home() {
                   rel={"noreferrer"}
                 >
                   <h3 className="py-1 text-3xl text-white">Live</h3>
-                  {/* <h3 className="py-1 text-3xl dark:text-white">Live</h3> */}
                 </a>
               </div>
             </div>
             <div className="flex-1 basis-1/3">
-              {/* <Image
-                className="object-cover rounded-lg"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={"/images/profile.jpg"}
-              /> */}
               <iframe
                 lazy="true"
                 layout="responsive"
@@ -445,7 +342,6 @@ export default function Home() {
                   rel={"noreferrer"}
                 >
                   <h3 className="py-1 text-3xl text-white">Code</h3>
-                  {/* <h3 className="py-1 text-3xl dark:text-white">Code</h3> */}
                 </a>
                 <a
                   href="https://fileupload.shadowdragon.one/"
@@ -453,18 +349,10 @@ export default function Home() {
                   rel={"noreferrer"}
                 >
                   <h3 className="py-1 text-3xl text-white">Live</h3>
-                  {/* <h3 className="py-1 text-3xl dark:text-white">Live</h3> */}
                 </a>
               </div>
             </div>
             <div className="flex-1 basis-1/3">
-              {/* <Image
-                className="object-cover rounded-lg"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={"/images/profile.jpg"}
-              /> */}
               <iframe
                 lazy="true"
                 layout="responsive"
@@ -473,25 +361,16 @@ export default function Home() {
                 width={"100%"}
               ></iframe>
               <div className="flex gap-9">
-                {/* <a href="#" target={"_blank"}><h3 className="py-1 text-3xl dark:text-white">Code</h3></a> */}
                 <a
                   href="https://cafemenu.shadowdragon.one/"
                   target={"_blank"}
                   rel={"noreferrer"}
                 >
-                  {/* <h3 className="py-1 text-3xl dark:text-white">Live</h3> */}
                   <h3 className="py-1 text-3xl text-white">Live</h3>
                 </a>
               </div>
             </div>
             <div className="flex-1 basis-1/3">
-              {/* <Image
-                className="object-cover rounded-lg"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={"/images/profile.jpg"}
-              /> */}
               <iframe
                 lazy="true"
                 layout="responsive"
@@ -500,25 +379,16 @@ export default function Home() {
                 width={"100%"}
               ></iframe>
               <div className="flex gap-9">
-                {/* <a href="#" target={"_blank"}><h3 className="py-1 text-3xl dark:text-white">Code</h3></a> */}
                 <a
                   href="https://shorturl.shadowdragon.one/"
                   target={"_blank"}
                   rel={"noreferrer"}
                 >
                   <h3 className="py-1 text-3xl text-white">Live</h3>
-                  {/* <h3 className="py-1 text-3xl dark:text-white">Live</h3> */}
                 </a>
               </div>
             </div>
             <div className="flex-1 basis-1/3 ">
-              {/* <Image
-                className="object-cover rounded-lg"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={"/images/profile.jpg"}
-              /> */}
               <iframe
                 lazy="true"
                 layout="responsive"
@@ -532,7 +402,6 @@ export default function Home() {
                   target={"_blank"}
                   rel={"noreferrer"}
                 >
-                  {/* <h3 className="py-1 text-3xl dark:text-white">Code</h3> */}
                   <h3 className="py-1 text-3xl text-white">Code</h3>
                 </a>
                 <a
@@ -541,18 +410,10 @@ export default function Home() {
                   rel={"noreferrer"}
                 >
                   <h3 className="py-1 text-3xl text-white">Live</h3>
-                  {/* <h3 className="py-1 text-3xl dark:text-white">Live</h3> */}
                 </a>
               </div>
             </div>
             {/* <div className="flex-1 basis-1/3 ">
-              {/* <Image
-                className="object-cover rounded-lg"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={"/images/profile.jpg"}
-              /> */}
               {/*<iframe
                 lazy="true"
                 layout="responsive"
