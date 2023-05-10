@@ -205,18 +205,13 @@ export default function Home() {
               </p>
               <h4 className="py-4 text-purple-600">Tech Stack </h4>
               <p className="py-1 text-gray-900">
-                TypeScript
-              </p>
-              <p className="py-1 text-gray-900">
-                AWS
-              </p>
-              <p className="py-1 text-gray-900">
-                Next.Js/React.Js - Javascript
+                Next.Js/React.Js - Javascript/Typescript
               </p>
               <p className="py-1 text-gray-900">
                 MaterialUi/TailwindCss/ChakraUi - Css
               </p>
               <p className="py-1 text-gray-900">MongoDb - Database (NoSQL)</p>
+              <p className="py-1 text-gray-900">Jest, ts-jest, React Testing Library (Testing)</p>
             </div>
 
             <div className="flex-1 p-10 my-10 text-center shadow-lg rounded-xl dark:bg-gradient-to-r from-cyan-500 text- to-teal-600">
