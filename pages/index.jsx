@@ -14,13 +14,16 @@ export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
 
   return (
-    <div className={darkMode ? "dark" : ""}>
+    <div>
+    {/* <div className={darkMode ? "dark" : "dark"}> */}
       <Head>
         <title>Resume/Portfolio</title>
       </Head>
-      <main className="px-10 bg-white dark:bg-gray-900 md:px-20 lg:px-40 max-xs:px-4 max-xxs:px-4">
+      <main className="px-10 bg-gray-900 md:px-20 lg:px-40 max-xs:px-4 max-xxs:px-4">
+      {/* <main className="px-10 bg-white dark:bg-gray-900 md:px-20 lg:px-40 max-xs:px-4 max-xxs:px-4"> */}
         <section className="min-h-screen">
-          <nav className="flex justify-between py-8 my-0 mb-12 dark:text-white max-xs:block">
+          <nav className="flex justify-between py-8 my-0 mb-12 text-white max-xs:block">
+          {/* <nav className="flex justify-between py-8 my-0 mb-12 dark:text-white max-xs:block"> */}
             <h1 className="text-xl font-burtons max-xs:text-sm max-xs:flex max-xs:justify-center">
               developedbyPuneet
             </h1>
@@ -49,16 +52,20 @@ export default function Home() {
             </div> */}
           </nav>
           <div className="p-10 py-10 text-center max-xs:px-6">
-            <h2 className="py-2 text-5xl font-medium text-teal-600 dark:text-teal-400 md:text-6xl max-xs:text-2xl max-xxs:text-xl">
+            <h2 className="py-2 text-5xl font-medium text-teal-600 text-teal-400 md:text-6xl max-xs:text-2xl max-xxs:text-xl">
+            {/* <h2 className="py-2 text-5xl font-medium text-teal-600 dark:text-teal-400 md:text-6xl max-xs:text-2xl max-xxs:text-xl"> */}
               Puneet Arora
             </h2>
-            <h3 className="py-2 text-2xl dark:text-white md:text-3xl max-xs:text-xl max-xxs:text-sm">
+            {/* <h3 className="py-2 text-2xl dark:text-white md:text-3xl max-xs:text-xl max-xxs:text-sm"> */}
+            <h3 className="py-2 text-2xl text-white md:text-3xl max-xs:text-xl max-xxs:text-sm">
               Software Developer.
             </h3>
             <p className="max-w-xl py-5 mx-auto leading-8 text-gray-800 text-md dark:text-gray-200 md:text-xl max-xs:text-base max-xxs:text-base">
+            {/* <p className="max-w-xl py-5 mx-auto leading-8 text-gray-800 text-md text-gray-200 md:text-xl max-xs:text-base max-xxs:text-base"> */}
               I read more to write less (Code)
             </p>
-            <div className="flex justify-center gap-16 py-3 text-5xl text-gray-600 dark:text-gray-400 max-xs:gap-8 max-xs:text-2xl max-xxs:text-base">
+            {/* <div className="flex justify-center gap-16 py-3 text-5xl text-gray-600 dark:text-gray-400 max-xs:gap-8 max-xs:text-2xl max-xxs:text-base"> */}
+            <div className="flex justify-center gap-16 py-3 text-5xl text-gray-600 text-gray-400 max-xs:gap-8 max-xs:text-2xl max-xxs:text-base">
               <a
                 href="https://www.linkedin.com/in/puneet2715/"
                 target={"_blank"}
@@ -114,11 +121,14 @@ export default function Home() {
         </section>
         <section>
           <div className="mx-auto">
-            <h2 className="py-1 text-3xl dark:text-white ">Education</h2>
-            <h3 className="py-1 text-2xl dark:text-teal-400 ">
+            {/* <h2 className="py-1 text-3xl dark:text-white ">Education</h2> */}
+            <h2 className="py-1 text-3xl text-white ">Education</h2>
+            <h3 className="py-1 text-2xl text-teal-400 ">
+            {/* <h3 className="py-1 text-2xl dark:text-teal-400 "> */}
               Bachelor of Computer Applications
             </h3>
-            <p className="py-2 text-lg leading-8 text-gray-800 dark:text-gray-200">
+            <p className="py-2 text-lg leading-8 text-gray-800 text-gray-200">
+            {/* <p className="py-2 text-lg leading-8 text-gray-800 dark:text-gray-200"> */}
               <span className="text-cyan-300">
                 {" "}
                 Maharaja Surajmal Institute of Technology{" "}
@@ -130,10 +140,12 @@ export default function Home() {
             </p>
           </div>
           <div className="pt-10">
-            <h2 className="py-1 text-3xl dark:text-white ">Experience</h2>
+            {/* <h2 className="py-1 text-3xl dark:text-white ">Experience</h2> */}
+            <h2 className="py-1 text-3xl text-white ">Experience</h2>
           </div>
           <div className="gap-10 lg:flex max-w-8xl max-h-max">
-            <div className="flex-1 p-10 my-10 text-center shadow-lg rounded-xl dark:bg-gradient-to-r from-cyan-500 text- to-teal-600">
+            {/* <div className="flex-1 p-10 my-10 text-center shadow-lg rounded-xl dark:bg-gradient-to-r from-cyan-500 text- to-teal-600"> */}
+            <div className="flex-1 p-10 my-10 text-center shadow-lg rounded-xl bg-gradient-to-r from-cyan-500 text- to-teal-600">
               <Image
                 lazy="true"
                 src={"https://ik.imagekit.io/puneet2715/3d-comp.jpg"}
@@ -174,7 +186,8 @@ export default function Home() {
               <p className="py-1 text-gray-900">MongoDb - Database (NoSQL)</p>
               <p className="py-1 text-gray-900">VCS -&gt; Git/Github</p>
             </div>
-            <div className="flex-1 p-10 my-10 text-center shadow-lg rounded-xl dark:bg-gradient-to-r from-cyan-500 text- to-teal-600">
+            <div className="flex-1 p-10 my-10 text-center shadow-lg rounded-xl bg-gradient-to-r from-cyan-500 text- to-teal-600">
+            {/* <div className="flex-1 p-10 my-10 text-center shadow-lg rounded-xl dark:bg-gradient-to-r from-cyan-500 text- to-teal-600"> */}
               <Image
                 lazy="true"
                 src={"https://ik.imagekit.io/puneet2715/3d-comp.jpg"}
@@ -225,7 +238,8 @@ export default function Home() {
               <p className="py-1 text-gray-900">VCS -&gt; Git/Github</p>
             </div>
 
-            <div className="flex-1 p-10 my-10 text-center shadow-lg rounded-xl dark:bg-gradient-to-r from-cyan-500 text- to-teal-600">
+            {/* <div className="flex-1 p-10 my-10 text-center shadow-lg rounded-xl dark:bg-gradient-to-r from-cyan-500 text- to-teal-600"> */}
+            <div className="flex-1 p-10 my-10 text-center shadow-lg rounded-xl bg-gradient-to-r from-cyan-500 text- to-teal-600">
               <Image
                 lazy="true"
                 src={"https://ik.imagekit.io/puneet2715/open-source.jpg"}
@@ -311,7 +325,8 @@ export default function Home() {
         </section>
         <section className="py-10">
           <div>
-            <h3 className="py-1 text-3xl dark:text-white">Portfolio</h3>
+            <h3 className="py-1 text-3xl text-white">Portfolio</h3>
+            {/* <h3 className="py-1 text-3xl dark:text-white">Portfolio</h3> */}
             {/* <p className="py-2 leading-8 text-gray-800 text-md dark:text-gray-200">
               Since the beginning of my journey as a freelance designer and
               developer, I've done remote work for
@@ -340,14 +355,16 @@ export default function Home() {
                   target={"_blank"}
                   rel={"noreferrer"}
                 >
-                  <h3 className="py-1 text-3xl dark:text-white">Code</h3>
+                  <h3 className="py-1 text-3xl text-white">Code</h3>
+                  {/* <h3 className="py-1 text-3xl dark:text-white">Code</h3> */}
                 </a>
                 <a
                   href="https://puneet2715.github.io/gitissuessimplified/"
                   target={"_blank"}
                   rel={"noreferrer"}
                 >
-                  <h3 className="py-1 text-3xl dark:text-white">Live</h3>
+                  <h3 className="py-1 text-3xl text-white">Live</h3>
+                  {/* <h3 className="py-1 text-3xl dark:text-white">Live</h3> */}
                 </a>
               </div>
             </div>
@@ -372,7 +389,8 @@ export default function Home() {
                   target={"_blank"}
                   rel={"noreferrer"}
                 >
-                  <h3 className="py-1 text-3xl dark:text-white">Live</h3>
+                  <h3 className="py-1 text-3xl text-white">Live</h3>
+                  {/* <h3 className="py-1 text-3xl dark:text-white">Live</h3> */}
                 </a>
               </div>
             </div>
@@ -391,14 +409,16 @@ export default function Home() {
                   target={"_blank"}
                   rel={"noreferrer"}
                 >
-                  <h3 className="py-1 text-3xl dark:text-white">Code</h3>
+                  {/* <h3 className="py-1 text-3xl dark:text-white">Code</h3> */}
+                  <h3 className="py-1 text-3xl text-white">Code</h3>
                 </a>
                 <a
                   href="https://puneet2715.github.io/easyops/"
                   target={"_blank"}
                   rel={"noreferrer"}
                 >
-                  <h3 className="py-1 text-3xl dark:text-white">Live</h3>
+                  <h3 className="py-1 text-3xl text-white">Live</h3>
+                  {/* <h3 className="py-1 text-3xl dark:text-white">Live</h3> */}
                 </a>
               </div>
             </div>
@@ -423,14 +443,16 @@ export default function Home() {
                   target={"_blank"}
                   rel={"noreferrer"}
                 >
-                  <h3 className="py-1 text-3xl dark:text-white">Code</h3>
+                  <h3 className="py-1 text-3xl text-white">Code</h3>
+                  {/* <h3 className="py-1 text-3xl dark:text-white">Code</h3> */}
                 </a>
                 <a
                   href="https://fileupload.shadowdragon.one/"
                   target={"_blank"}
                   rel={"noreferrer"}
                 >
-                  <h3 className="py-1 text-3xl dark:text-white">Live</h3>
+                  <h3 className="py-1 text-3xl text-white">Live</h3>
+                  {/* <h3 className="py-1 text-3xl dark:text-white">Live</h3> */}
                 </a>
               </div>
             </div>
@@ -456,7 +478,8 @@ export default function Home() {
                   target={"_blank"}
                   rel={"noreferrer"}
                 >
-                  <h3 className="py-1 text-3xl dark:text-white">Live</h3>
+                  {/* <h3 className="py-1 text-3xl dark:text-white">Live</h3> */}
+                  <h3 className="py-1 text-3xl text-white">Live</h3>
                 </a>
               </div>
             </div>
@@ -482,7 +505,8 @@ export default function Home() {
                   target={"_blank"}
                   rel={"noreferrer"}
                 >
-                  <h3 className="py-1 text-3xl dark:text-white">Live</h3>
+                  <h3 className="py-1 text-3xl text-white">Live</h3>
+                  {/* <h3 className="py-1 text-3xl dark:text-white">Live</h3> */}
                 </a>
               </div>
             </div>
@@ -507,14 +531,16 @@ export default function Home() {
                   target={"_blank"}
                   rel={"noreferrer"}
                 >
-                  <h3 className="py-1 text-3xl dark:text-white">Code</h3>
+                  {/* <h3 className="py-1 text-3xl dark:text-white">Code</h3> */}
+                  <h3 className="py-1 text-3xl text-white">Code</h3>
                 </a>
                 <a
                   href="https://ourapp.shadowdragon.one/"
                   target={"_blank"}
                   rel={"noreferrer"}
                 >
-                  <h3 className="py-1 text-3xl dark:text-white">Live</h3>
+                  <h3 className="py-1 text-3xl text-white">Live</h3>
+                  {/* <h3 className="py-1 text-3xl dark:text-white">Live</h3> */}
                 </a>
               </div>
             </div>
