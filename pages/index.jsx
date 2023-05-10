@@ -11,7 +11,7 @@ import Image from "next/image";
 import Head from "next/head";
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   return (
     <div className={darkMode ? "dark" : ""}>
@@ -162,6 +162,9 @@ export default function Home() {
                   ATTENDIT
                 </a>
               </h3>
+              <h4 className="-mt-3 font-medium text-purple-600">
+                April 2020 - June 2020  
+              </h4>
               <p className="py-2">
                 Comepleted day to day tasks like -&gt; <br /> Contribution in
                 development of the REST APIs and password hashing and storing.
@@ -169,6 +172,7 @@ export default function Home() {
               <h4 className="py-4 text-purple-600">Tech Stack </h4>
               <p className="py-1 text-gray-900">Nest.Js - Javascript</p>
               <p className="py-1 text-gray-900">MongoDb - Database (NoSQL)</p>
+              <p className="py-1 text-gray-900">VCS -&gt; Git/Github</p>
             </div>
             <div className="flex-1 p-10 my-10 text-center shadow-lg rounded-xl dark:bg-gradient-to-r from-cyan-500 text- to-teal-600">
               <Image
@@ -200,8 +204,14 @@ export default function Home() {
                   EasyOps
                 </a>
               </h3>
+              <h4 className="-mt-3 font-medium text-purple-600">
+                Feb 2023 - May 2023  
+              </h4>
               <p className="py-2">
-                Comepleting assignments and daily standups {/*-&gt;*/} <br />
+                Development Style -&gt; AGILE {/*-&gt;*/} <br />
+              </p>
+              <p className="py-2">
+                Comepleted assignments and daily standups {/*-&gt;*/} <br />
               </p>
               <h4 className="py-4 text-purple-600">Tech Stack </h4>
               <p className="py-1 text-gray-900">
@@ -212,6 +222,7 @@ export default function Home() {
               </p>
               <p className="py-1 text-gray-900">MongoDb - Database (NoSQL)</p>
               <p className="py-1 text-gray-900">Jest, ts-jest, React Testing Library (Testing)</p>
+              <p className="py-1 text-gray-900">VCS -&gt; Git/Github</p>
             </div>
 
             <div className="flex-1 p-10 my-10 text-center shadow-lg rounded-xl dark:bg-gradient-to-r from-cyan-500 text- to-teal-600">
@@ -258,8 +269,15 @@ export default function Home() {
                 </a>
               </p>
               <h4 className="py-4 text-purple-600">Tech Stack </h4>
-              <p className="py-1 text-gray-900">Git - GitHub</p>
-              {/* <p className="py-1 text-gray-900">MongoDb - Database (NoSQL)</p> */}
+              <p className="py-1 text-gray-900">Notes Management -&gt; <a
+                  href="https://obsidian.md/"
+                  target={"_blank"}
+                  rel="noreferrer"
+                  className="underline"
+                >
+                  Obsidian
+                </a></p>
+              <p className="py-1 text-gray-900">VCS -&gt; Git/Github</p>
             </div>
             {/* <div className="flex-1 p-10 my-10 text-center shadow-lg rounded-xl dark:bg-neutral-600">
               <Image src={"/images/profile.jpg"} width={200} height={200} />
