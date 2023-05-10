@@ -60,7 +60,8 @@ export default function Home() {
             <h3 className="py-2 text-2xl text-white md:text-3xl max-xs:text-xl max-xxs:text-sm">
               Software Developer.
             </h3>
-            <p className="max-w-xl py-5 mx-auto leading-8 text-gray-800 text-md dark:text-gray-200 md:text-xl max-xs:text-base max-xxs:text-base">
+            <p className="max-w-xl py-5 mx-auto leading-8 text-gray-800 text-md text-gray-200 md:text-xl max-xs:text-base max-xxs:text-base">
+            {/* <p className="max-w-xl py-5 mx-auto leading-8 text-gray-800 text-md dark:text-gray-200 md:text-xl max-xs:text-base max-xxs:text-base"> */}
             {/* <p className="max-w-xl py-5 mx-auto leading-8 text-gray-800 text-md text-gray-200 md:text-xl max-xs:text-base max-xxs:text-base"> */}
               I read more to write less (Code)
             </p>
