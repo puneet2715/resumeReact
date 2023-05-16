@@ -184,9 +184,9 @@ export default function Home() {
               <p className="py-2">
                 Development Style -&gt; AGILE <br />
               </p>
-              <p className="py-2">
+              {/* <p className="py-2">
                 Comepleted assignments and daily standups <br />
-              </p>
+              </p> */}
               <h4 className="py-4 text-purple-600">Tech Stack </h4>
               <p className="py-1 text-gray-900">
                 Next.Js/React.Js - Javascript/Typescript
