@@ -25,9 +25,9 @@ export default function Home() {
               <li>
                 <a
                   className="px-4 py-2 border-none rounded-md ml-text-white bg-gradient-to-r from-cyan-500 text- to-teal-500 max-xs:text-sm"
-                  href="https://filebrowser.shadowdragon.one/share/DHx6IQn8"
+                  href="https://filebrowser.shadowdragon.one/share/Pug99a66"
                   target={"_blank"}
-                  rel="noreferrer"
+                  rel="noreferrer nopener nofollow"
                 >
                   Resume
                 </a>
@@ -35,41 +35,41 @@ export default function Home() {
             </ul>
           </nav>
           <div className="p-10 py-10 text-center max-xs:px-6">
-            <h2 className="py-2 text-5xl font-medium text-teal-600 text-teal-400 md:text-6xl max-xs:text-2xl max-xxs:text-xl">
+            <h2 className="py-2 text-5xl font-medium text-teal-400 md:text-6xl max-xs:text-2xl max-xxs:text-xl">
               Puneet Arora
             </h2>
             <h3 className="py-2 text-2xl text-white md:text-3xl max-xs:text-xl max-xxs:text-sm">
               Software Developer.
             </h3>
-            <p className="max-w-xl py-5 mx-auto leading-8 text-gray-800 text-md text-gray-200 md:text-xl max-xs:text-base max-xxs:text-base">
+            <p className="max-w-xl py-5 mx-auto leading-8 text-gray-200text-md md:text-xl max-xs:text-base max-xxs:text-base">
               I read more to write less (Code)
             </p>
-            <div className="flex justify-center gap-16 py-3 text-5xl text-gray-600 text-gray-400 max-xs:gap-8 max-xs:text-2xl max-xxs:text-base">
+            <div className="flex justify-center gap-16 py-3 text-5xl text-gray-400 max-xs:gap-8 max-xs:text-2xl max-xxs:text-base">
               <a
                 href="https://www.linkedin.com/in/puneet2715/"
                 target={"_blank"}
-                rel="noreferrer"
+                rel="noreferrer nopener nofollow"
               >
                 <AiFillLinkedin />
               </a>
               <a
                 href="https://github.com/puneet2715"
                 target={"_blank"}
-                rel="noreferrer"
+                rel="noreferrer nopener nofollow"
               >
                 <AiFillGithub />
               </a>
               <a
                 href="https://twitter.com/BadLfeDecisions"
                 target={"_blank"}
-                rel="noreferrer"
+                rel="noreferrer nopener nofollow"
               >
                 <AiFillTwitterCircle />
               </a>
               <a
-                href="mailto:puneet@shadowdragon.tech"
+                href="mailto:puneet2715@gmail.com"
                 target={"_blank"}
-                rel="noreferrer"
+                rel="noreferrer nopener nofollow"
               >
                 <AiFillMail />
               </a>
@@ -92,7 +92,7 @@ export default function Home() {
             <h3 className="py-1 text-2xl text-teal-400 ">
               Bachelor of Computer Applications
             </h3>
-            <p className="py-2 text-lg leading-8 text-gray-800 text-gray-200">
+            <p className="py-2 text-lg leading-8 text-gray-200">
               <span className="text-cyan-300">
                 {" "}
                 Maharaja Surajmal Institute of Technology{" "}
@@ -120,7 +120,7 @@ export default function Home() {
                 <a
                   href="https://www.freepik.com/free-psd/3d-rendering-graphic-design_31164759.htm#&position=3&from_view=undefinedhttps://www.freepik.com/free-psd/3d-rendering-graphic-design_31164759.htm#&position=3&from_view=undefined"
                   target={"_blank"}
-                  rel="noreferrer"
+                  rel="noreferrer nopener nofollow"
                   className="underline"
                 >
                   Freepik
@@ -130,7 +130,7 @@ export default function Home() {
                 Back-End Dev @ <a
                   href="https://www.linkedin.com/company/attendit1/about/"
                   target={"_blank"}
-                  rel="noreferrer"
+                  rel="noreferrer nopener nofollow"
                   className="hover:underline"
                 >
                   ATTENDIT
@@ -161,7 +161,7 @@ export default function Home() {
                 <a
                   href="https://www.freepik.com/free-psd/3d-rendering-graphic-design_31164759.htm#&position=3&from_view=undefinedhttps://www.freepik.com/free-psd/3d-rendering-graphic-design_31164759.htm#&position=3&from_view=undefined"
                   target={"_blank"}
-                  rel="noreferrer"
+                  rel="noreferrer nopener nofollow"
                   className="underline"
                 >
                   Freepik
@@ -172,14 +172,14 @@ export default function Home() {
                 <a
                   href="https://www.easyops.in/"
                   target={"_blank"}
-                  rel="noreferrer"
+                  rel="noreferrer nopener nofollow"
                   className="hover:underline"
                 >
                   EasyOps
                 </a>
               </h3>
               <h4 className="-mt-3 font-medium text-purple-600">
-                Feb 2023 - May 2023  
+                Feb 2023 - April 2023  
               </h4>
               <p className="py-2">
                 Development Style -&gt; AGILE <br />
@@ -212,45 +212,35 @@ export default function Home() {
                 <a
                   href="https://www.freepik.com/free-photo/3d-illustration-open-closed-books-pencil_33309550.htm#&position=1&from_view=undefined"
                   target={"_blank"}
-                  rel="noreferrer"
+                  rel="noreferrer nopener nofollow"
                   className="underline"
                 >
                   Freepik
                 </a>
               </p>
               <h3 className="pt-8 pb-2 text-lg font-medium text-purple-600">
-                Open Source Contribution
+                Associate Software Engineer @{" "}
+                <a
+                  href="https://www.quantela.com/"
+                  target={"_blank"}
+                  rel="noreferrer nopener nofollow"
+                  className="hover:underline"
+                >
+                  Quantela
+                </a>
               </h3>
+              <h4 className="-mt-3 font-medium text-purple-600">
+                <time>June 2023 - Present</time>  
+              </h4>
               <p className="py-2">
-                Repository Link -&gt; <br />
-                <a
-                  href="https://github.com/ChristianLempa/cheat-sheets"
-                  target={"_blank"}
-                  rel="noreferrer"
-                  className="font-mono text-purple-600"
-                >
-                  Cheat-Sheets
-                </a>
+                • Worked on Upgrading a Platform ( Angular )
                 <br />
-                ( This is my first pr ) Pull Request Link -&gt; <br />
-                <a
-                  href="https://github.com/ChristianLempa/cheat-sheets/pull/72"
-                  target={"_blank"}
-                  rel="noreferrer"
-                  className="font-mono text-purple-600"
-                >
-                  Added Cloud Notes
-                </a>
+                &bull; Module Development - UI / Unit Testing / Providing Critical Feedback on UX ( Angular )
+                <br />
+                • Helping the team as much as I can {/* press numlock then hold alt and then press 0 1 4 9 in succession to get the bullet point or &bull */}  
               </p>
               <h4 className="py-4 text-purple-600">Tech Stack </h4>
-              <p className="py-1 text-gray-900">Notes Management -&gt; <a
-                  href="https://obsidian.md/"
-                  target={"_blank"}
-                  rel="noreferrer"
-                  className="underline"
-                >
-                  Obsidian
-                </a></p>
+              <p className="py-1 text-gray-900">JavaScript - Angular/NodeJs</p>
               <p className="py-1 text-gray-900">VCS -&gt; Git/Github</p>
             </div>
           </div>
