@@ -25,7 +25,7 @@ export default function Home() {
               <li>
                 <a
                   className="px-4 py-2 border-none rounded-md ml-text-white bg-gradient-to-r from-cyan-500 text- to-teal-500 max-xs:text-sm"
-                  href="https://filebrowser.shadowdragon.one/share/Pug99a66"
+                  href="https://filebrowser.shadowdragon.dev/share/Pug99a66"
                   target={"_blank"}
                   rel="noreferrer nopener nofollow"
                 >
@@ -279,13 +279,13 @@ export default function Home() {
               <iframe
                 lazy="true"
                 layout="responsive"
-                src="https://carfrontend.shadowdragon.one/"
+                src="https://carfrontend.shadowdragon.dev/"
                 height={"650px"}
                 width={"100%"}
               ></iframe>
               <div className="flex gap-9">
                 <a
-                  href="https://carfrontend.shadowdragon.one/"
+                  href="https://carfrontend.shadowdragon.dev/"
                   target={"_blank"}
                   rel={"noreferrer"}
                 >
@@ -321,7 +321,7 @@ export default function Home() {
               <iframe
                 lazy="true"
                 layout="responsive"
-                src="https://fileupload.shadowdragon.one/"
+                src="https://fileupload.shadowdragon.dev/"
                 height={"650px"}
                 width={"100%"}
               ></iframe>
@@ -334,7 +334,7 @@ export default function Home() {
                   <h3 className="py-1 text-3xl text-white">Code</h3>
                 </a>
                 <a
-                  href="https://fileupload.shadowdragon.one/"
+                  href="https://fileupload.shadowdragon.dev/"
                   target={"_blank"}
                   rel={"noreferrer"}
                 >
@@ -346,13 +346,13 @@ export default function Home() {
               <iframe
                 lazy="true"
                 layout="responsive"
-                src="https://cafemenu.shadowdragon.one/"
+                src="https://cafemenu.shadowdragon.dev/"
                 height={"650px"}
                 width={"100%"}
               ></iframe>
               <div className="flex gap-9">
                 <a
-                  href="https://cafemenu.shadowdragon.one/"
+                  href="https://cafemenu.shadowdragon.dev/"
                   target={"_blank"}
                   rel={"noreferrer"}
                 >
@@ -364,13 +364,13 @@ export default function Home() {
               <iframe
                 lazy="true"
                 layout="responsive"
-                src="https://shorturl.shadowdragon.one/"
+                src="https://shorturl.shadowdragon.dev/"
                 height={"650px"}
                 width={"100%"}
               ></iframe>
               <div className="flex gap-9">
                 <a
-                  href="https://shorturl.shadowdragon.one/"
+                  href="https://shorturl.shadowdragon.dev/"
                   target={"_blank"}
                   rel={"noreferrer"}
                 >
@@ -382,7 +382,7 @@ export default function Home() {
               <iframe
                 lazy="true"
                 layout="responsive"
-                src="https://ourapp.shadowdragon.one/"
+                src="https://ourapp.shadowdragon.dev/"
                 height={"650px"}
                 width={"100%"}
               ></iframe>
@@ -395,7 +395,7 @@ export default function Home() {
                   <h3 className="py-1 text-3xl text-white">Code</h3>
                 </a>
                 <a
-                  href="https://ourapp.shadowdragon.one/"
+                  href="https://ourapp.shadowdragon.dev/"
                   target={"_blank"}
                   rel={"noreferrer"}
                 >
@@ -407,7 +407,7 @@ export default function Home() {
               {/*<iframe
                 lazy="true"
                 layout="responsive"
-                src="https://ourapp.shadowdragon.one/"
+                src="https://ourapp.shadowdragon.dev/"
                 height={"650px"}
                 width={"100%"}
               ></iframe>
@@ -420,7 +420,7 @@ export default function Home() {
                   <h3 className="py-1 text-3xl dark:text-white">Code</h3>
                 </a>
                 <a
-                  href="https://ourapp.shadowdragon.one/"
+                  href="https://ourapp.shadowdragon.dev/"
                   target={"_blank"}
                   rel={"noreferrer"}
                 >
