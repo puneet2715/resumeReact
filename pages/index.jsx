@@ -25,7 +25,7 @@ export default function Home() {
               <li>
                 <a
                   className="px-4 py-2 border-none rounded-md ml-text-white bg-gradient-to-r from-cyan-500 text- to-teal-500 max-xs:text-sm"
-                  href="https://filebrowser.shadowdragon.dev/share/Pug99a66"
+                  href="https://filebrowser.shadowdragon.dev/share/34Niy1aj"
                   target={"_blank"}
                   rel="noreferrer nopener nofollow"
                 >
@@ -67,7 +67,7 @@ export default function Home() {
                 <AiFillTwitterCircle />
               </a>
               <a
-                href="mailto:puneet2715@gmail.com"
+                href="mailto:mail@shadowdragon.dev"
                 target={"_blank"}
                 rel="noreferrer nopener nofollow"
               >
