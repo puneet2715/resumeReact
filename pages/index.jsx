@@ -28,7 +28,7 @@ export default function Home() {
               <li>
                 <a
                   className="px-4 py-2 border-none rounded-md ml-text-white bg-gradient-to-r from-cyan-500 text- to-teal-500 max-xs:text-sm"
-                  href="https://filebrowser.shadowdragon.dev/share/34Niy1aj"
+                  href="https://filebrowser.shadowdragon.dev/api/public/dl/MktqLmOX?inline=true"
                   target={"_blank"}
                   rel="noreferrer nopener nofollow"
                 >
