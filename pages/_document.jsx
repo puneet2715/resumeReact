@@ -11,7 +11,7 @@ export default function Document() {
         {/* Facebook Meta Tags */}
         <meta property="og:title" content="Resume/Portfolio" />
         <meta property="og:description" content="Portfolio/Resume Site of Puneet Arora" />
-        <meta property="og:image" content="https://ik.imagekit.io/puneet2715/icon.jpg?tr=w-180,h-180" />
+        <meta property="og:image" content="https://ogcdn.net/e4b8c678-7bd5-445d-ba03-bfaad510c686/v4/resume.shadowdragon.dev/Resume%2FPortfolio/https%3A%2F%2Fik.imagekit.io%2Fpuneet2715%2Ficon.jpg%3Ftr%3Dw-180%2Ch-180/og.png" />
         <meta property="og:url" content="https://www.resume.shadowdragon.dev" />
         <meta property="og:type" content="website" />
 
@@ -21,7 +21,7 @@ export default function Document() {
         <meta property="twitter:url" content="https://www.resume.shadowdragon.dev" />
         <meta name="twitter:title" content="Resume/Portfolio" />
         <meta name="twitter:description" content="Portfolio/Resume Site of Puneet Arora" />
-        <meta name="twitter:image" content="https://ik.imagekit.io/puneet2715/icon.jpg?tr=w-180,h-180" />
+        <meta name="twitter:image" content="https://ogcdn.net/e4b8c678-7bd5-445d-ba03-bfaad510c686/v4/resume.shadowdragon.dev/Resume%2FPortfolio/https%3A%2F%2Fik.imagekit.io%2Fpuneet2715%2Ficon.jpg%3Ftr%3Dw-180%2Ch-180/og.png" />
       </Head>
       <body>
         <Main />
