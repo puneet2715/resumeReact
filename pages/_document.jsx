@@ -12,7 +12,8 @@ export default function Document() {
         <meta property="og:title" content="Resume/Portfolio" />
         <meta property="og:description" content="Portfolio/Resume Site of Puneet Arora" />
         <meta property="og:image" content="https://ogcdn.net/e4b8c678-7bd5-445d-ba03-bfaad510c686/v4/resume.shadowdragon.dev/Resume%2FPortfolio/https%3A%2F%2Fik.imagekit.io%2Fpuneet2715%2Ficon.jpg%3Ftr%3Dw-180%2Ch-180/og.png" />
-        <meta property="og:url" content="https://www.resume.shadowdragon.dev" />
+        <meta property="og:site_name" content="Puneet Arora's Resume/Portfolio" />
+        <meta property="og:url" content="https://resume.shadowdragon.dev" />
         <meta property="og:type" content="website" />
 
         {/* Twitter Meta Tags */}
