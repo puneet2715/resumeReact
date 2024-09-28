@@ -17,7 +17,10 @@ export default function Document() {
         <meta property="og:type" content="website" />
 
         {/* Twitter Meta Tags */}
-        <meta name="twitter:card" content="I solve complex problems with a outcomes-centered approach. See how at resume.shadowdragon.dev" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@puneet2715" />
+        <meta name="twitter:creator" content="@puneet2715" />
+        <meta name="twitter:summary" content="I solve complex problems with a outcomes-centered approach. See how at resume.shadowdragon.dev" />
         <meta property="twitter:domain" content="resume.shadowdragon.dev" />
         <meta property="twitter:url" content="https://www.resume.shadowdragon.dev" />
         <meta name="twitter:title" content="Resume/Portfolio" />
